@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="login ">
+    <header>
+        <nav>
+            <a href="/">
+                <img src="images/logo.png">
+            </a>
+            <span class="push-left">
+                <a href="/" class="navtitle">Language Cast</a>
+            </span>
+            <span class="push-right">
+                <a href="/logout">Logout</a>
+            </span>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="profile">
+                    <div>
+                        <div>
+                            <img src="{{user.photo}}" class="profile-image">
+                        </div>  
+                        <div class="profile-name">{{user.name}}</div>  
+                        <div class="profile-info">{{country}}</div>
+                        <div class="profile-info">{{user.gender}}</div>
+                        <div class="profile-info">{{age}} years old</div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+                <div class="language">
+                    <div class="title-container">
+                        Languages
+                    </div>
+                    <div class="row">
+                        <a href="videocall">
+                            <div class="col-md-6">
+                                <div class="title-blue">Teaching</div>
+                                <div>
+                                    <img src="images/spanish.png" class="flag">
+                                    <div class="language-label">Spanish</div>    
+                                </div>
+                            </div>
+                        </a>
+                        <a href="videocall">
+                            <div class="col-md-6">
+                                <div class="title-blue">Learning</div>
+                                <div>
+                                    <img src="images/english.png" class="flag">
+                                    <div class="language-label">English</div>    
+                                </div>                            
+                            </div>
+                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

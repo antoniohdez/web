@@ -1,0 +1,43 @@
+h2 {
+    font-family: inherit !important;
+    font-weight: 100 !important;
+    line-height: 1.1 !important;
+    color: #1AC6FF !important;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+h4 {
+    font-family: inherit !important;
+    font-weight: 100 !important;
+    line-height: 1.1 !important;
+    color: white !important;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+.double-fixed-space{
+	padding-top: 6em;
+}
+.fixed-space{
+	padding-top: 3em;
+}
+.title{
+	margin-bottom: 2em;
+}
+.login{
+	background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/bg1.jpg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.fb_iframe_widget iframe {
+    position: relative !important;
+}
+.logo{
+	width: 200px;
+}

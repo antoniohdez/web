@@ -1,0 +1,82 @@
+body{
+	background: #eee;
+}
+nav{
+	height: 3em;
+	background: #444554;
+}
+nav a{
+	color: white;
+}
+nav a:hover{
+	color: white;
+}
+nav img{
+	height: 3em;
+	padding: .25em;
+}
+.container{
+	margin-top: 2em;
+}
+.push-right{
+	float: right;
+	padding: .75em;
+}
+.profile{
+	background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/profile-bg.jpg');
+	color: white;
+	height: 350px;
+	padding: 3em;
+	text-align: center;
+}
+.profile-name{
+	font-size: 1.5em;
+	padding: .5em;
+}
+.profile-info{
+	font-size: 1em;
+	padding: .25em;
+}
+.profile-image{
+	height: 10em;
+	width: 10em;
+	border-radius: 5em;
+}
+.language{
+
+}
+.title-container{
+	background: #444554;
+	color: white;
+	padding: 1em 0;
+	text-align: center;
+}
+.title-blue{
+	background: #00C7FA;
+	color: white;
+	padding: .5em;
+	text-align: center;
+}
+.flag{
+	-webkit-filter: brightness(85%);
+	width: 100%;
+}
+nav > span{
+	font-size: 14px;
+}
+.navtitle{
+	font-size: 1.2em !important;
+}
+.language-label{
+	background: rgba(0,0,0,0.5);
+	color: white;
+	margin-top: -2.5em;
+	padding: .5em;
+	position: relative;
+	text-align: center;
+}

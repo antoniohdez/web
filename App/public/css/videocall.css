@@ -1,0 +1,96 @@
+nav{
+	height: 3em;
+	background: #444554;
+}
+nav a{
+	color: white;
+}
+nav a:hover{
+	color: white;
+}
+nav img{
+	height: 3em;
+	padding: .25em;
+}
+.push-right{
+	float: right;
+	padding: .75em;
+}
+
+hr{
+	margin: 0 !important;
+}
+
+.remote-video{
+	background: #000;
+	/*height: 437px;*/
+	width: 100%;
+}
+.local-video{
+	background-color: #555;
+	position: absolute;
+	max-width: 150px;
+}
+
+.container{	
+	margin-top: 50px;
+}
+
+.chat-container{
+	background: #686A75;
+	padding: 1em;
+}
+.chat-title{
+	font-size: 24px;
+	text-align: center;
+}
+.chat > div{
+	padding: 1em 1em 1em 1em;
+}
+.chat{
+	background: #ddd;
+	color: #1AC6FF;
+}
+.chat-wrapper{
+	height: 250px;
+	max-height: 250px;
+	overflow: auto;
+	padding: 0 !important;
+	margin: 1em;
+}
+.chat-wrapper > div{
+	margin-top: .1em;
+}
+
+.chat-wrapper > div > .chat-username{
+	color: gray;
+}
+
+.chat-wrapper > div > .chat-msg{
+	
+}
+.chat-input{
+	padding: 0 !important;
+}
+.input-msg{
+	border: 0;
+	margin: 0;
+	padding: 1em;
+	width: 80%;
+}
+.button-send{
+	background: #1AC6FF;
+	border: 0;
+	color: white;
+	padding: 1em;
+	width: 20%;
+}
+nav > span{
+	font-size: 14px;
+}
+.navtitle{
+	font-size: 1.2em !important;
+}
+.chat-suggestion{
+	font-weight: bold;
+}

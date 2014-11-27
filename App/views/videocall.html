@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/videocall.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body class="login ">
+    <header>
+        <nav>
+            <a href="/">
+                <img src="images/logo.png">
+            </a>
+            <span class="push-left">
+                <a href="/" class="navtitle">Language Cast</a>
+            </span>
+            <span class="push-right">
+                <a href="/logout">Logout</a>
+            </span>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="video-container">
+                    <video id="local-video" class="local-video" autoplay muted></video>
+                    <video id="remote-video" class="remote-video" autoplay></video>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="chat-container">
+                    <div class="chat">
+                        <div id="chat-nick" style="display:none"></div>
+                        <div class="chat-title">Start practicing!</div>
+                        <hr>
+                        <div id="chat-frame" class="chat-wrapper">
+                            <div>
+                                <span class"chat-msg">Say something about you or talk about: </span>
+                                <span id="suggestion" class="chat-suggestion">Food</span>
+                            </div>
+                        </div>
+                        <div class="chat-input">
+                            <input id="chat-input" class="input-msg"><!--
+                        --><input id="chat-send-msj" class="button-send" type="button" value="Send">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/videocall/video.js"></script>
+    <script src="js/videocall/suggestion.js"></script>
+</body>
+</html>
